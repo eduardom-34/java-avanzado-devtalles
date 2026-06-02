@@ -5,11 +5,15 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
 
-        Box<String> stringBox = new Box<>("Gabriel");
+        //Box<String> name = new Box<>("Gabriel");
 
-        System.out.println(stringBox.getValue());
+        //System.out.println(name.getValue());
 
-        Box<Integer> integerBox = new Box<>(10);
-        System.out.println(integerBox.getValue());
+        Utility.printItem("Gabriel", 2);
+        Utility.printItem(10);
+
+        MathUtils.saum(2, 2);
+
+
     }
 }
