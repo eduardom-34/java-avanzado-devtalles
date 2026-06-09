@@ -6,6 +6,11 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
+        List<Object> list = new ArrayList<>();
+
+        list.add(1);
+        list.add("1");
+
         //Box<String> name = new Box<>("Gabriel");
 
         //System.out.println(name.getValue());
